@@ -1,7 +1,8 @@
-import "./App.css";
+import MyComponent from "./MyComponent";
+
 function App() {
-  const name = "리액트";
-  return <div className="react">{name}</div>;
+  const name = undefined;
+  return <MyComponent></MyComponent>;
 }
 
 export default App;
